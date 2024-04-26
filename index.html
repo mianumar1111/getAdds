@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ad Website</title>
+</head>
+<body>
+    <h1>Welcome to the Ad Website</h1>
+    <button id="loadAdBtn">Load Ad</button>
+    <div id="adContainer"></div>
+
+    <script>
+        document.getElementById('loadAdBtn').addEventListener('click', function() {
+            // Load ad when the button is clicked
+            loadAd();
+        });
+
+        function loadAd() {
+            // Here you would insert your ad code
+            // For example, you can use Google AdSense
+            // Replace 'YOUR_AD_CODE_HERE' with your actual ad code
+            document.getElementById('adContainer').innerHTML = '<!-- YOUR_AD_CODE_HERE -->';
+        }
+    </script>
+</body>
+</html>
